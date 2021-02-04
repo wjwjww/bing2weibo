@@ -78,7 +78,7 @@ def save_log(dicts):
 
 if __name__ == "__main__":
     # 提前启动，等待整点，参数为实际想要的UTC时间
-    wait_on_time((13,25,20))
+    wait_on_time((0,0,1))
     # 解析bing内容
     dicts = get_bing()
     # 发布微博
